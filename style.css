@@ -45,7 +45,7 @@ a:focus-visible {
 
 .site-header {
   padding: 1.25rem 0;
-  border-bottom: 4px solid #c5d8cd;
+  border-bottom: 4px solid var(--colore-primario);
 }
 
 .brand {
