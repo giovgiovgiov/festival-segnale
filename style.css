@@ -3,12 +3,12 @@
 
 /* Scelte comuni: ogni regola usa var() per richiamarne il valore. */
 :root {
-  --colore-primario: #245c49;
-  --colore-primario-scuro: #173f32;
+  --colore-primario: #f67990;
+  --colore-primario-scuro: #aa3147;
   --colore-sfondo: #f5f2e9;
   --colore-testo: #202923;
-  --font-testo: Arial, Helvetica, sans-serif;
-  --font-titoli: Georgia, "Times New Roman", serif;
+  --font-testo: Roboto, Helvetica, sans-serif;
+  --font-titoli: "Stack Sans Notch", sans-serif;
 }
 
 * {
@@ -21,7 +21,7 @@ body {
   color: var(--colore-testo);
   font-family: var(--font-testo);
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 a {
@@ -45,7 +45,7 @@ a:focus-visible {
 
 .site-header {
   padding: 1.25rem 0;
-  border-bottom: 4px solid #d8d2c5;
+  border-bottom: 4px solid #c5d8cd;
 }
 
 .brand {
@@ -79,7 +79,7 @@ nav a[aria-current="page"] {
 }
 
 .intro {
-  padding: 3rem 0 1rem;
+  padding: 1.25rem 0 1rem;
 }
 
 .eyebrow,
