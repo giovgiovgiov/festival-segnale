@@ -164,7 +164,7 @@ h3 {
 
 
 .event-card {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0rem;
   overflow: hidden;
   border: 1px solid #b7c0b7;
   border-radius: 0.75rem;
@@ -210,7 +210,7 @@ h3 {
   top: 1rem;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 37.5rem) {
   .event-grid {
     grid-template-columns: 1fr;
   }
