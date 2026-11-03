@@ -210,7 +210,7 @@ h3 {
   top: 1rem;
 }
 
-@media (max-width: 37.5rem) {
+@media (max-width: 37.4375rem) {
   .event-grid {
     grid-template-columns: 1fr;
   }
