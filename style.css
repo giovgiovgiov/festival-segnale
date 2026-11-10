@@ -221,3 +221,101 @@ h3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+/* Link leggibili: il rosa originale è troppo chiaro per il testo normale. */
+a {
+  color: var(--colore-primario-scuro);
+}
+
+.button-link {
+  background: var(--colore-primario-scuro);
+  color: #ffffff;
+}
+
+.button-link:hover {
+  background: #792032;
+}
+
+.galleria-luoghi {
+  overflow: hidden;
+  border: 1px solid #b7c0b7;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.galleria-luoghi .swiper-slide {
+  height: auto;
+  margin: 0;
+}
+
+.galleria-luoghi img {
+  display: block;
+  width: 100%;
+  max-height: 38rem;
+  object-fit: cover;
+}
+
+.galleria-luoghi figcaption {
+  padding: 1rem 1.25rem;
+}
+
+.galleria-luoghi figcaption h3,
+.galleria-luoghi figcaption p {
+  margin-top: 0;
+}
+
+.galleria-comandi {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem 1rem;
+}
+
+.galleria-comandi .swiper-button-prev,
+.galleria-comandi .swiper-button-next {
+  position: static;
+  width: 3rem;
+  height: 3rem;
+  margin: 0;
+  border: 2px solid var(--colore-primario-scuro);
+  border-radius: 50%;
+  background: #ffffff;
+  color: var(--colore-primario-scuro);
+}
+
+.galleria-comandi .swiper-button-prev::after,
+.galleria-comandi .swiper-button-next::after {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.galleria-comandi button:focus-visible {
+  outline: 3px solid var(--colore-testo);
+  outline-offset: 4px;
+}
+
+#mappa-sedi {
+  display: block;
+  width: 100%;
+  height: 28rem;
+  border: 0;
+}
+
+.indirizzi-sedi {
+  padding-left: 1.25rem;
+}
+
+.indirizzi-sedi li {
+  margin-bottom: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
