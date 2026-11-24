@@ -333,38 +333,6 @@ a {
   z-index: 1001;
 }
 
-/* Menu in colonna sotto i 600 px */
-@media (max-width: 599px) {
-  .site-header nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
-    margin-top: 0.75rem;
-  }
-
-  .site-header nav a {
-    display: block;
-    margin-right: 0;
-    padding: 0.35rem 0;
-  }
-}
-
-/* Menu in riga da 600 px in su */
-@media (min-width: 600px) {
-  .site-header nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0 1rem;
-  }
-
-  .site-header nav a {
-    margin-right: 0;
-  }
-}
-
 #stato-eventi,
 #stato-meteo {
   max-width: 65ch;
