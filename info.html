@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.css">
   <script src="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.js" defer></script>
   <script src="galleria.js" defer></script>
+  <script src="meteo.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
@@ -86,6 +87,21 @@
           Visualizza la mappa a schermo intero
         </a>
       </p>
+
+      <section class="content-section" aria-labelledby="titolo-meteo">
+  <h2 id="titolo-meteo">Meteo a Torino adesso</h2>
+  <p id="stato-meteo" aria-live="polite">Caricamento dei dati meteo…</p>
+  <div id="dati-meteo" hidden>
+    <p>Temperatura: <strong id="temperatura-meteo"></strong></p>
+    <p>Vento: <strong id="vento-meteo"></strong></p>
+    <p>Ora del dato: <strong id="ora-meteo"></strong></p>
+  </div>
+  <p class="reading-text">
+    È il meteo attuale a Torino, non una previsione per le date del festival.
+    Dati meteo:
+    <a href="https://open-meteo.com/">Open-Meteo</a>, licenza CC BY 4.0.
+  </p>
+</section>
 
       <ul class="indirizzi-sedi">
         <li>
