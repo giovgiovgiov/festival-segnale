@@ -364,3 +364,19 @@ a {
     margin-right: 0;
   }
 }
+
+#stato-eventi,
+#stato-meteo {
+  max-width: 65ch;
+}
+
+#dati-meteo {
+  padding: 1rem 1.25rem;
+  border: 1px solid #b7c0b7;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+#dati-meteo p:last-child {
+  margin-bottom: 0;
+}
