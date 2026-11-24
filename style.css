@@ -339,10 +339,13 @@ a {
 }
 
 #dati-meteo {
-  padding: 1rem 1.25rem;
+  max-width: 32rem;
+  margin: 1rem auto;
+  padding: 1.25rem;
   border: 1px solid #b7c0b7;
   border-radius: 0.75rem;
   background: #ffffff;
+  text-align: center;
 }
 
 #dati-meteo p:last-child {
