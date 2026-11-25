@@ -339,15 +339,17 @@ a {
 }
 
 #dati-meteo {
-  max-width: 32rem;
-  margin: 1rem auto;
-  padding: 1.25rem;
-  border: 1px solid #b7c0b7;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  margin: 2rem 0;
+  padding: 1.50rem;
+  border: 5px solid #aa3147;
   border-radius: 0.75rem;
   background: #ffffff;
-  text-align: center;
+  text-align: start;
 }
 
 #dati-meteo p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 1;
 }
