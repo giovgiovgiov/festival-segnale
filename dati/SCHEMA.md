@@ -31,7 +31,24 @@
 Una sede può ospitare più eventi; ogni evento si svolge in una sede.  
 `Evento.sede_id` fa riferimento a `Sede.id`.
 
-```text
-SEDE (1) ───── ospita ───── (0 o più) EVENTO
-                                  │
-                                  └── sede\_id fa riferimento a Sede.id
+```mermaid
+erDiagram
+    SEDE ||--o{ EVENTO : ospita
+    SEDE {
+        int id PK
+        string nome
+        string indirizzo
+    }
+    EVENTO {
+        int id PK
+        string titolo
+        string data
+        string orario
+        string categoria
+        string descrizione
+        string immagine
+        string immagineAlt
+        int sedeId FK
+    }
+```
+
